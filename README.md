@@ -1,63 +1,99 @@
 # Bootcamp BairesDev - Machine Learning Practitioner - DIO
 
-Este repositório contém os projetos desenvolvidos durante o bootcamp "Machine Learning Practitioner" oferecido pela BairesDev em parceria com a Digital Innovation One (DIO). O objetivo deste bootcamp é capacitar profissionais na área de Machine Learning, abordando desde os conceitos básicos até a implementação de modelos mais avançados.
+Este repositório contém os projetos desenvolvidos durante o bootcamp "Machine Learning Practitioner" oferecido pela BairesDev em parceria com a Digital Innovation One (DIO). O objetivo deste bootcamp é capacitar os participantes com conhecimentos e habilidades práticas em Machine Learning, utilizando diversas ferramentas e técnicas.
 
 ## Projetos Realizados
 
 ### 1. Matriz de Confusão
 - **Descrição:** Projeto focado na análise e interpretação da matriz de confusão, uma ferramenta essencial para avaliar o desempenho de modelos de classificação.
-- **Link do Notebook:** [Matriz de Confusão no Google Colab](https://colab.research.google.com/drive/1hB5QpAw4k5069gHOMf7BaMBlHV_MGeHK#scrollTo=coUbm14iFwgo)
-- **Principais Tópicos:**
-  - Introdução à matriz de confusão
-  - Métricas derivadas: Acurácia, Precisão, Recall, F1-Score
-  - Implementação em Python utilizando a biblioteca scikit-learn
+- **Objetivos:** Introduzir a matriz de confusão e suas métricas derivadas, como Acurácia, Precisão, Recall e F1-Score. Demonstrar a implementação em Python utilizando a biblioteca scikit-learn.
+- **Funcionalidades:**
+  - Criação e visualização de matriz de confusão
+  - Cálculo de métricas de desempenho
   - Exemplos práticos e interpretação dos resultados
+- **Tecnologias Utilizadas:** Python, scikit-learn, matplotlib, seaborn
+- **Instruções de Instalação:**
+  ```bash
+  pip install scikit-learn matplotlib seaborn
+  ```
 
 ### 2. Exercicio de Redimensionalidade de Imagens
 - **Descrição:** Projeto que aborda técnicas de redimensionamento e conversão de imagens para escala de cinza e binarização.
-- **Principais Tópicos:**
-  - Uso da biblioteca PIL para manipulação de imagens
+- **Objetivos:** Demonstrar o uso da biblioteca PIL para manipulação de imagens, incluindo redimensionamento, conversão para escala de cinza e binarização.
+- **Funcionalidades:**
   - Redimensionamento de imagens
   - Conversão de imagens para escala de cinza
   - Binarização de imagens
+- **Tecnologias Utilizadas:** Python, PIL, numpy
+- **Instruções de Instalação:**
+  ```bash
+  pip install pillow numpy
+  ```
 
 ### 3. Assistente Virtual Básico
 - **Descrição:** Desenvolvimento de um assistente virtual básico utilizando reconhecimento de fala e síntese de voz.
-- **Link do Notebook:** [Assistente Virtual Básico no Google Colab](https://colab.research.google.com/github/danielbevilacqua2/bootcamp-Baires-Dev--Machine-Learning-Practicioner--DIO/blob/main/Projeto_assistente_virtual_basico.ipynb)
-- **Principais Tópicos:**
-  - Uso da biblioteca SpeechRecognition para reconhecimento de fala
-  - Uso da biblioteca pyttsx3 para síntese de voz
+- **Objetivos:** Criar um assistente virtual capaz de reconhecer comandos de voz e responder com síntese de voz, além de realizar tarefas como localização de endereços e comércios.
+- **Funcionalidades:**
+  - Reconhecimento de fala
+  - Síntese de voz
   - Integração com Google Maps para localização de endereços e comércios
+- **Tecnologias Utilizadas:** Python, SpeechRecognition, pyttsx3, pyaudio, webbrowser
+- **Instruções de Instalação:**
+  ```bash
+  pip install SpeechRecognition pyttsx3 pyaudio
+  ```
 
 ### 4. Sistema de Recomendação de Imagens
 - **Descrição:** Criação de um sistema de recomendação de imagens baseado em similaridade.
-- **Principais Tópicos:**
+- **Objetivos:** Desenvolver um sistema capaz de recomendar imagens semelhantes com base em características extraídas das imagens.
+- **Funcionalidades:**
   - Extração de características de imagens
   - Cálculo de similaridade entre imagens
   - Implementação de um sistema de recomendação
+- **Tecnologias Utilizadas:** Python, tensorflow, numpy, pandas, matplotlib
+- **Instruções de Instalação:**
+  ```bash
+  pip install tensorflow numpy pandas matplotlib
+  ```
 
 ### 5. Transfer Learning - Cats and Dogs
 - **Descrição:** Implementação de um modelo de classificação de imagens utilizando Transfer Learning para diferenciar gatos e cachorros.
-- **Link do Notebook:** [Transfer Learning - Cats and Dogs no Google Colab](https://colab.research.google.com/github/danielbevilacqua2/bootcamp-Baires-Dev--Machine-Learning-Practicioner--DIO/blob/main/Projeto_transfer_learning_cats_and_dogs.ipynb)
-- **Principais Tópicos:**
+- **Objetivos:** Demonstrar a utilização de modelos pré-treinados para transfer learning, aplicando-os na classificação de imagens de gatos e cachorros.
+- **Funcionalidades:**
   - Download e organização do dataset Cats and Dogs
   - Implementação de Transfer Learning utilizando um modelo pré-treinado
   - Treinamento e avaliação do modelo
+- **Tecnologias Utilizadas:** Python, tensorflow, keras, numpy, matplotlib
+- **Instruções de Instalação:**
+  ```bash
+  pip install tensorflow keras numpy matplotlib
+  ```
 
 ### 6. Sistema de Reconhecimento Facial usando OpenCV
 - **Descrição:** Desenvolvimento de um sistema de reconhecimento facial utilizando a biblioteca OpenCV.
-- **Link do Notebook:** [Sistema de Reconhecimento Facial no Google Colab](https://colab.research.google.com/github/danielbevilacqua2/bootcamp-Baires-Dev--Machine-Learning-Practicioner--DIO/blob/main/Sistema_de_reconhecimento_facial_usando_OpenCV.ipynb)
-- **Principais Tópicos:**
+- **Objetivos:** Criar um sistema capaz de detectar e reconhecer faces em imagens utilizando algoritmos de visão computacional.
+- **Funcionalidades:**
   - Captura de imagens usando webcam
   - Detecção de faces utilizando OpenCV
   - Desenho de caixas delimitadoras ao redor das faces detectadas
+- **Tecnologias Utilizadas:** Python, OpenCV, imutils, numpy
+- **Instruções de Instalação:**
+  ```bash
+  pip install opencv-python imutils numpy
+  ```
 
 ### 7. Projeto de Detecção com a Rede Yolo
 - **Descrição:** Implementação de um sistema de detecção de objetos utilizando a rede YOLO (You Only Look Once).
-- **Principais Tópicos:**
+- **Objetivos:** Demonstrar a utilização da rede YOLO para detecção de objetos em imagens, incluindo configuração, treinamento e inferência.
+- **Funcionalidades:**
   - Configuração e uso da rede YOLO
   - Detecção de múltiplos objetos em imagens
   - Visualização dos resultados com caixas delimitadoras
+- **Tecnologias Utilizadas:** Python, PyTorch, YOLOv5
+- **Instruções de Instalação:**
+  ```bash
+  pip install torch torchvision
+  ```
 
 ## Estrutura do Repositório
 
@@ -77,5 +113,4 @@ Este repositório contém os projetos desenvolvidos durante o bootcamp "Machine 
 ## Contato
 
 - **Nome:** Daniel Bevilacqua
-- **Email:** daniel.bevilacqua@example.com
 - **LinkedIn:** [Daniel Bevilacqua](https://www.linkedin.com/in/danielbevilacqua/)
